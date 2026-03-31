@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery — CyberKonnect Podcast</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="glass-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="logo.webp" alt="CyberKonnect Logo" class="logo-img"/></a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="episodes.html" class="nav-link">Episodes</a></li>
+        <li><a href="team.html" class="nav-link">Team</a></li>
+        <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="episodes.html" class="nav-cta">Listen Now</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mob-link">Home</a>
+    <a href="about.html" class="mob-link">About</a>
+    <a href="episodes.html" class="mob-link">Episodes</a>
+    <a href="team.html" class="mob-link">Team</a>
+    <a href="gallery.html" class="mob-link active">Gallery</a>
+    <a href="contact.html" class="mob-link">Contact</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <span class="section-tag">Behind the Scenes</span>
+    <h1>Gallery</h1>
+    <p>A look inside the recordings, the moments between takes, and the people who make CyberKonnect what it is.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section">
+    <div class="container">
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="episode-1">Episode 1</button>
+        <button class="filter-btn" data-filter="episode-2">Episode 2</button>
+        <button class="filter-btn" data-filter="episode-3">Episode 3</button>
+        <button class="filter-btn" data-filter="bts">Behind the Scenes</button>
+        <button class="filter-btn" data-filter="team">Team</button>
+      </div>
+
+      <!-- Masonry Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- ── EPISODE 1 ── -->
+        <div class="gallery-item" data-category="episode-1" data-title="Opening Discussion" data-label="Episode 1 · Cybersecurity Act">
+          <div class="gallery-placeholder" style="height:280px;">
+            <div class="gallery-placeholder-icon">🎙️</div>
+          </div>
+          <!-- Replace with: <img class="gallery-img" src="gallery/ep1_opening.jpg" alt="Opening Discussion"/> -->
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 1 · Cybersecurity Act</span>
+            <div class="gallery-overlay-title">Opening Discussion</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-1" data-title="Guest Lawyer Q&A" data-label="Episode 1 · Cybersecurity Act">
+          <div class="gallery-placeholder" style="height:360px;">
+            <div class="gallery-placeholder-icon">⚖️</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 1 · Cybersecurity Act</span>
+            <div class="gallery-overlay-title">Guest Lawyer Q&A</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-1" data-title="Audience Engagement" data-label="Episode 1 · Cybersecurity Act">
+          <div class="gallery-placeholder" style="height:220px;">
+            <div class="gallery-placeholder-icon">👥</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 1 · Cybersecurity Act</span>
+            <div class="gallery-overlay-title">Audience Engagement</div>
+          </div>
+        </div>
+
+        <!-- ── EPISODE 2 ── -->
+        <div class="gallery-item" data-category="episode-2" data-title="Projector Demo Setup" data-label="Episode 2 · Cyber Attacks">
+          <div class="gallery-placeholder" style="height:300px;">
+            <div class="gallery-placeholder-icon">📊</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 2 · Cyber Attacks</span>
+            <div class="gallery-overlay-title">Projector Demo Setup</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-2" data-title="Case Study Walkthrough" data-label="Episode 2 · Cyber Attacks">
+          <div class="gallery-placeholder" style="height:240px;">
+            <div class="gallery-placeholder-icon">🔍</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 2 · Cyber Attacks</span>
+            <div class="gallery-overlay-title">Case Study Walkthrough</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-2" data-title="Panel Conversation" data-label="Episode 2 · Cyber Attacks">
+          <div class="gallery-placeholder" style="height:340px;">
+            <div class="gallery-placeholder-icon">🛡️</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 2 · Cyber Attacks</span>
+            <div class="gallery-overlay-title">Panel Conversation</div>
+          </div>
+        </div>
+
+        <!-- ── EPISODE 3 ── -->
+        <div class="gallery-item" data-category="episode-3" data-title="AI & Tech Discussion" data-label="Episode 3 · AI & Careers">
+          <div class="gallery-placeholder" style="height:260px;">
+            <div class="gallery-placeholder-icon">🤖</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 3 · AI & Careers</span>
+            <div class="gallery-overlay-title">AI & Tech Discussion</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-3" data-title="Career Pathways Segment" data-label="Episode 3 · AI & Careers">
+          <div class="gallery-placeholder" style="height:320px;">
+            <div class="gallery-placeholder-icon">🚀</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 3 · AI & Careers</span>
+            <div class="gallery-overlay-title">Career Pathways Segment</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="episode-3" data-title="Closing Remarks" data-label="Episode 3 · AI & Careers">
+          <div class="gallery-placeholder" style="height:220px;">
+            <div class="gallery-placeholder-icon">🎤</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Episode 3 · AI & Careers</span>
+            <div class="gallery-overlay-title">Closing Remarks</div>
+          </div>
+        </div>
+
+        <!-- ── BEHIND THE SCENES ── -->
+        <div class="gallery-item" data-category="bts" data-title="Pre-show Setup" data-label="Behind the Scenes">
+          <div class="gallery-placeholder" style="height:290px;">
+            <div class="gallery-placeholder-icon">🎬</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Behind the Scenes</span>
+            <div class="gallery-overlay-title">Pre-show Setup</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="bts" data-title="Camera & Equipment Check" data-label="Behind the Scenes">
+          <div class="gallery-placeholder" style="height:230px;">
+            <div class="gallery-placeholder-icon">📷</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Behind the Scenes</span>
+            <div class="gallery-overlay-title">Camera & Equipment Check</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="bts" data-title="Sound Check" data-label="Behind the Scenes">
+          <div class="gallery-placeholder" style="height:350px;">
+            <div class="gallery-placeholder-icon">🎧</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Behind the Scenes</span>
+            <div class="gallery-overlay-title">Sound Check</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="bts" data-title="Post-show Debrief" data-label="Behind the Scenes">
+          <div class="gallery-placeholder" style="height:250px;">
+            <div class="gallery-placeholder-icon">💬</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Behind the Scenes</span>
+            <div class="gallery-overlay-title">Post-show Debrief</div>
+          </div>
+        </div>
+
+        <!-- ── TEAM ── -->
+        <div class="gallery-item" data-category="team" data-title="The Full Team" data-label="Team">
+          <div class="gallery-placeholder" style="height:310px;">
+            <div class="gallery-placeholder-icon">🏆</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Team</span>
+            <div class="gallery-overlay-title">The Full Team</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="team" data-title="Research Session" data-label="Team">
+          <div class="gallery-placeholder" style="height:255px;">
+            <div class="gallery-placeholder-icon">📚</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Team</span>
+            <div class="gallery-overlay-title">Research Session</div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="team" data-title="Planning Meeting" data-label="Team">
+          <div class="gallery-placeholder" style="height:200px;">
+            <div class="gallery-placeholder-icon">📋</div>
+          </div>
+          <div class="gallery-overlay">
+            <div class="gallery-overlay-zoom">⤢</div>
+            <span class="gallery-overlay-label">Team</span>
+            <div class="gallery-overlay-title">Planning Meeting</div>
+          </div>
+        </div>
+
+      </div><!-- /gallery-grid -->
+
+      <p class="gallery-upload-note">
+        📸 <strong>Adding real photos:</strong> Replace each <code>.gallery-placeholder</code> div with <code>&lt;img class="gallery-img" src="gallery/filename.jpg" alt="Caption"/&gt;</code> inside the <code>.gallery-item</code>. Keep the <code>.gallery-overlay</code> as-is — it works with both placeholders and real images.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lbClose">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lbPrev">‹</button>
+    <button class="lightbox-nav lightbox-next" id="lbNext">›</button>
+    <div class="lightbox-inner">
+      <div class="lightbox-img-wrap" id="lbImgWrap"></div>
+      <div class="lightbox-caption">
+        <span class="gallery-overlay-label" id="lbLabel"></span>
+        <div class="gallery-overlay-title" id="lbTitle"></div>
+      </div>
+      <div class="lightbox-counter" id="lbCounter"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="logo.webp" alt="Logo" class="footer-logo"/>
+          <p>Empowering Ghana's digital resilience through education and conversation.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="episodes.html">Episodes</a>
+          <a href="team.html">Team</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <h4>Connect</h4>
+          <a href="#">YouTube</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 CyberKonnect Podcast. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // ── Filter logic ──────────────────────────────────────────
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.gallery-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        items.forEach(item => {
+          const match = filter === 'all' || item.dataset.category === filter;
+          item.style.display = match ? 'block' : 'none';
+          if (match) {
+            item.style.animation = 'none';
+            item.offsetHeight; // reflow
+            item.style.animation = 'fadeInUp 0.4s ease both';
+          }
+        });
+      });
+    });
+
+    // ── Lightbox ──────────────────────────────────────────────
+    const lightbox  = document.getElementById('lightbox');
+    const lbImgWrap = document.getElementById('lbImgWrap');
+    const lbLabel   = document.getElementById('lbLabel');
+    const lbTitle   = document.getElementById('lbTitle');
+    const lbCounter = document.getElementById('lbCounter');
+
+    let currentIndex = 0;
+    let visibleItems = [];
+
+    function getVisibleItems() {
+      return [...document.querySelectorAll('.gallery-item')]
+        .filter(el => el.style.display !== 'none');
+    }
+
+    function openLightbox(index) {
+      visibleItems = getVisibleItems();
+      currentIndex = index;
+      renderLightbox();
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function renderLightbox() {
+      const item = visibleItems[currentIndex];
+      // Try to find a real image first, fallback to placeholder clone
+      const realImg = item.querySelector('.gallery-img');
+      lbImgWrap.innerHTML = '';
+      if (realImg) {
+        const img = document.createElement('img');
+        img.src = realImg.src;
+        img.alt = realImg.alt;
+        img.style.width = '100%';
+        img.style.maxHeight = '70vh';
+        img.style.objectFit = 'contain';
+        img.style.display = 'block';
+        lbImgWrap.appendChild(img);
+      } else {
+        const ph = item.querySelector('.gallery-placeholder').cloneNode(true);
+        ph.style.minHeight = '360px';
+        lbImgWrap.appendChild(ph);
+      }
+      lbLabel.textContent  = item.dataset.label  || '';
+      lbTitle.textContent  = item.dataset.title  || '';
+      lbCounter.textContent = `${currentIndex + 1} / ${visibleItems.length}`;
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    items.forEach((item, i) => {
+      item.addEventListener('click', () => {
+        visibleItems = getVisibleItems();
+        const visIdx = visibleItems.indexOf(item);
+        if (visIdx !== -1) openLightbox(visIdx);
+      });
+    });
+
+    document.getElementById('lbClose').addEventListener('click', closeLightbox);
+    document.getElementById('lbPrev').addEventListener('click', () => {
+      currentIndex = (currentIndex - 1 + visibleItems.length) % visibleItems.length;
+      renderLightbox();
+    });
+    document.getElementById('lbNext').addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % visibleItems.length;
+      renderLightbox();
+    });
+
+    // Close on backdrop click
+    lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', e => {
+      if (!lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape')      closeLightbox();
+      if (e.key === 'ArrowLeft')  { currentIndex = (currentIndex - 1 + visibleItems.length) % visibleItems.length; renderLightbox(); }
+      if (e.key === 'ArrowRight') { currentIndex = (currentIndex + 1) % visibleItems.length; renderLightbox(); }
+    });
+  </script>
+</body>
+</html>
